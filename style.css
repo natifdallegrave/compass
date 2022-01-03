@@ -1,0 +1,73 @@
+h2 {
+    text-align: center
+
+}
+#simbolo {
+    font-size: 40px
+
+}
+#escolha{
+   font-size: 20px
+   
+
+   
+}
+.header {
+    padding: 20px;
+
+}
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+footer{
+    text-align: center
+  
+}
+.footer{
+    padding: 10px;
+    text-align: center
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
