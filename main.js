@@ -1,21 +1,15 @@
 
-
-
-
 function loadDogs(){
-const url = `https://dog.ceo/api/breeds/image/random/3`
+const url = `https://dog.ceo/api/breeds/image/random/1`
 var dogs = new Array();
 fetch(url)
 .then((res) => {
     if(res.ok){
         return res.json()
-         
-
     }
     else{
        throw new Error("error") 
     }
-  
 }).then((data) => {dogs = data.message;
     for(let dog in dogs){
         const imageDiv = document.getElementById("image");
