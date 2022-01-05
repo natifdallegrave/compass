@@ -21,12 +21,12 @@ outra de execução, onde puxamos os dados que queremos da api de forma aleatór
 uma onde o usuário digita a raça a ser mostrada na tela 
 ![image](https://user-images.githubusercontent.com/96789492/148152944-381c71e7-a38b-49e2-8381-1627ad0efd5f.png)
 
-outra de cadastro.
-![image](https://user-images.githubusercontent.com/96789492/148153002-9bcb3f67-c924-47a5-97c4-c39f180e52d9.png)
+outra de cadastro
+![image](https://user-images.githubusercontent.com/96789492/148153231-c809d047-a93b-4b9e-8dd3-9e9a6d131672.png)
 
 
 
-Processo de construção
+Processo de construção: 
 Gerar os quatro arquivos HTML e CSS;
 Puxar a Api através do FETCH no js ;
 Validar o E-mail com regex;
