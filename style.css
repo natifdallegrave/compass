@@ -3,6 +3,9 @@
     padding: 20px;
 
 }
+.corgi{
+	border-radius: 25%;
+}
 body {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -16,21 +19,17 @@ ul {
 	align-items: center;
 	width: 20%;
 	margin-right: 15%;
+
 }
 .caixa {
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
 }
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
-}
 nav li {
 	display: inline;
 	margin: 0 0 0 20px;
+	padding-left: 70%;
 }
 nav {
 	position: absolute;
@@ -55,14 +54,16 @@ footer{
 }
 .footer{
 	background: #fccb81;
-    padding: 10px;
+    padding: 5%;
     text-align: center
 	
 }
 
 .img{
-    height: 20%;
-    width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+    height: 30%;
+    width: 30%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,6 +79,7 @@ h1{
 	color: #000000;
 	font-size: large;
 	padding-top: 3%;
+	padding-bottom: 3%;
 	
 }
 p{
@@ -101,7 +103,7 @@ p{
 #botao{
 	
 	width:40%;
-	padding: 5%x 0;
+	padding: 1%;
 	background: orange;
 	color: white;
 	font-weight: bold;
@@ -155,5 +157,25 @@ form label, form legend {
 
 .enviar:hover {
 	background: darkorange;
+	transform: scale(1.2);
+}
+
+#bota{
+	
+	width:20%;
+	padding: 0.5%;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	
+	
+}
+.bota:hover {
+	background: rgb(255, 51, 0);
 	transform: scale(1.2);
 }
